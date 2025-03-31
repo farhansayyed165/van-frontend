@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import EditAvatar from '../components/user/editAvatar';
+import EditAvatar from '../components/user/EditAvatar.jsx';
 import { createUser } from "../api"
 import {useNavigate, useLocation} from "react-router-dom"
 
