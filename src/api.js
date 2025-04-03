@@ -3,6 +3,7 @@ import axios from "axios"
 
 // const BASEURL = "http://localhost:3000"
 const BASEURL = "https://van-api.onrender.com"
+// const BASEURL = "http://localhost:3000"
 
 export async function checkToken(token){
     const url = `${BASEURL}/checkToken`

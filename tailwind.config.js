@@ -6,6 +6,7 @@ export default {
     extend: {
       colors:{
         "button-orange":"#FF8C38",
+        "button-grey":"#808080",
         "body-bg":"#FFF7ED"
       },
       fontFamily:{

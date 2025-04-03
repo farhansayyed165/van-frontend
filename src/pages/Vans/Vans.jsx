@@ -33,8 +33,7 @@ export default function Vans() {
         function renderVanElements(vans) {
             const displayedVans = typeFilter
                 ? vans.filter(van => van.type === typeFilter)
-                : vans
-            console.log(vans[0])
+                : vans;
             const vanElements = displayedVans.map(van => (
                 <div key={van.vanid} className="van-tile px-4">
                     <Link
@@ -47,7 +46,7 @@ export default function Vans() {
                         <img src={van.image} />
                         <div className="van-info my-2 flex justify-between mb-5 ">
                             <h3 className="">{van.name}</h3>
-                            <p className="font-bold"> ${van.price}<span>/day</span></p>
+                            <p className="font-bold"> ₹{van.price}<span>/day</span></p>
                         </div>
                         <i className={`van-type ${van.type} selected`}>{van.type}</i>
                     </Link>

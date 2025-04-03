@@ -27,6 +27,7 @@ export default function Header() {
     return (
         <header className="flex w-full px-3 z-50 sticky top-0 bg-body-bg shadow-md border-b-[1px] border-black">
             <Link className=" flex justify-center site-logo z-50" to="/">VanLife</Link>
+            <Link className="sm:hidden flex justify-end z-50" to="/about">About</Link>
 
             <nav className=" hidden sm:flex items-center z-50 -translate-x-5">
                 <NavElements></NavElements>

@@ -166,7 +166,7 @@ export default function VanDetail() {
             {van.type}
           </i>
           <h2 className="mt-8">{van.name}</h2>
-          <p className="van-price"><span>${van.price}</span>/day</p>
+          <p className="van-price"><span>₹{van.price}</span>/day</p>
           <p className="lg:w-3/4">{van.details}</p>
           <div className="mt-3">
           <label for="number-input" className="block mb-2 text-base font-medium text-black" >Select number of days:</label>
