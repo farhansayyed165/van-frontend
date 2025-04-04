@@ -12,7 +12,7 @@ function DashboardUser({ data }) {
                 <div className="info">
                     <h1>Welcome {data?.name}!</h1>
                     {/* <p>Income last <span>30 days</span></p> */}
-                    <h2>${data?.income ? data.income : 0}</h2>
+                    <h2>₹{data?.income ? data.income : 0}</h2>
                 </div>
                 <Link to="income">Details</Link>
             </section>

@@ -15,7 +15,7 @@ export default function Income() {
             <p>
                 Last <span>30 days</span>
             </p>
-            <h2>$2,260</h2>
+            <h2>₹2,260</h2>
             {/* <img
                 className="graph"
                 src={incomeGraph}
@@ -32,7 +32,7 @@ export default function Income() {
             <div className="transactions">
                 {transactionsData.map((item) => (
                     <div key={item.id} className="transaction">
-                        <h3>${item.amount}</h3>
+                        <h3>₹{item.amount}</h3>
                         <p>{item.date}</p>
                     </div>
                 ))}
